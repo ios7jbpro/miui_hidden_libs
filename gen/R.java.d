@@ -1,1 +1,13 @@
 /storage/emulated/0/.sketchware/mysc/688/gen/com/ios7jbpro/miuilib/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/appcompat/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/core/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/appcompat/resources/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/drawerlayout/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/coordinatorlayout/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/com/google/android/material/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/swiperefreshlayout/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/browser/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/constraintlayout/widget/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/transition/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/cardview/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/androidx/recyclerview/R.java \

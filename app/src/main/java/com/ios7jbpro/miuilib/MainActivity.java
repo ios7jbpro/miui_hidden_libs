@@ -1,6 +1,7 @@
 package com.ios7jbpro.miuilib;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.annotation.*;
 import android.app.*;
 import android.os.*;
 import android.view.*;
@@ -30,12 +31,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.DialogFragment;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 	
 	private LinearLayout linear1;
 	private ScrollView vscroll1;
@@ -195,6 +196,7 @@ public class MainActivity extends Activity {
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
+	private Intent war = new Intent();
 	
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
@@ -670,23 +672,9 @@ public class MainActivity extends Activity {
 			}
 			break; 
 		}
-		is.setTitle("⚠️⚠️READ THIS WARNING!⚠️⚠️");
-		is.setMessage("The app is designed to work on miui ONLY. Do not complain me about not working on aosp.\n\nALSO IM NOT RESPONSIBLE FOR ANY ISSUE!\n\n- ios7jbpro");
-		is.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface _dialog, int _which) {
-				
-			}
-		});
-		is.setNegativeButton("PM Me on Telegram", new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface _dialog, int _which) {
-				jdjd.setAction(Intent.ACTION_VIEW);
-				jdjd.setData(Uri.parse("https://t.me/ios7jbpro"));
-				startActivity(jdjd);
-			}
-		});
-		is.create().show();
+		war.setAction(Intent.ACTION_VIEW);
+		war.setClass(getApplicationContext(), WarningActivity.class);
+		startActivity(war);
 	}
 	
 	@Override
