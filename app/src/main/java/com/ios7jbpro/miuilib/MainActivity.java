@@ -77,6 +77,10 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear65;
 	private LinearLayout linear67;
 	private LinearLayout linear69;
+	private LinearLayout linear71;
+	private LinearLayout linear73;
+	private LinearLayout linear75;
+	private LinearLayout linear77;
 	private TextView textview2;
 	private LinearLayout linear4;
 	private TextView textview62;
@@ -212,10 +216,56 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear70;
 	private TextView textview102;
 	private TextView textview101;
+	private TextView textview103;
+	private LinearLayout linear72;
+	private TextView textview104;
+	private TextView textview105;
+	private LinearLayout linear74;
+	private TextView textview106;
+	private TextView textview107;
+	private LinearLayout linear76;
+	private TextView textview108;
+	private TextView textview109;
+	private LinearLayout linear78;
+	private TextView textview110;
+	private LinearLayout linear79;
+	private TextView textview111;
+	private LinearLayout linear80;
+	private TextView textview112;
+	private LinearLayout linear81;
+	private TextView textview113;
+	private LinearLayout linear82;
+	private TextView textview114;
+	private LinearLayout linear83;
+	private TextView textview115;
+	private LinearLayout linear84;
+	private TextView textview116;
+	private LinearLayout linear85;
+	private TextView textview117;
+	private LinearLayout linear86;
+	private TextView textview118;
+	private LinearLayout linear87;
+	private TextView textview119;
+	private LinearLayout linear88;
+	private TextView textview120;
+	private LinearLayout linear89;
+	private TextView textview121;
+	private LinearLayout linear90;
+	private TextView textview122;
+	private LinearLayout linear91;
+	private TextView textview123;
+	private LinearLayout linear92;
+	private TextView textview124;
+	private LinearLayout linear93;
+	private TextView textview125;
+	private LinearLayout linear94;
+	private TextView textview126;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
 	private Intent war = new Intent();
+	private RequestNetwork rq;
+	private RequestNetwork.RequestListener _rq_request_listener;
 	
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
@@ -265,6 +315,10 @@ public class MainActivity extends AppCompatActivity {
 		linear65 = (LinearLayout) findViewById(R.id.linear65);
 		linear67 = (LinearLayout) findViewById(R.id.linear67);
 		linear69 = (LinearLayout) findViewById(R.id.linear69);
+		linear71 = (LinearLayout) findViewById(R.id.linear71);
+		linear73 = (LinearLayout) findViewById(R.id.linear73);
+		linear75 = (LinearLayout) findViewById(R.id.linear75);
+		linear77 = (LinearLayout) findViewById(R.id.linear77);
 		textview2 = (TextView) findViewById(R.id.textview2);
 		linear4 = (LinearLayout) findViewById(R.id.linear4);
 		textview62 = (TextView) findViewById(R.id.textview62);
@@ -400,7 +454,52 @@ public class MainActivity extends AppCompatActivity {
 		linear70 = (LinearLayout) findViewById(R.id.linear70);
 		textview102 = (TextView) findViewById(R.id.textview102);
 		textview101 = (TextView) findViewById(R.id.textview101);
+		textview103 = (TextView) findViewById(R.id.textview103);
+		linear72 = (LinearLayout) findViewById(R.id.linear72);
+		textview104 = (TextView) findViewById(R.id.textview104);
+		textview105 = (TextView) findViewById(R.id.textview105);
+		linear74 = (LinearLayout) findViewById(R.id.linear74);
+		textview106 = (TextView) findViewById(R.id.textview106);
+		textview107 = (TextView) findViewById(R.id.textview107);
+		linear76 = (LinearLayout) findViewById(R.id.linear76);
+		textview108 = (TextView) findViewById(R.id.textview108);
+		textview109 = (TextView) findViewById(R.id.textview109);
+		linear78 = (LinearLayout) findViewById(R.id.linear78);
+		textview110 = (TextView) findViewById(R.id.textview110);
+		linear79 = (LinearLayout) findViewById(R.id.linear79);
+		textview111 = (TextView) findViewById(R.id.textview111);
+		linear80 = (LinearLayout) findViewById(R.id.linear80);
+		textview112 = (TextView) findViewById(R.id.textview112);
+		linear81 = (LinearLayout) findViewById(R.id.linear81);
+		textview113 = (TextView) findViewById(R.id.textview113);
+		linear82 = (LinearLayout) findViewById(R.id.linear82);
+		textview114 = (TextView) findViewById(R.id.textview114);
+		linear83 = (LinearLayout) findViewById(R.id.linear83);
+		textview115 = (TextView) findViewById(R.id.textview115);
+		linear84 = (LinearLayout) findViewById(R.id.linear84);
+		textview116 = (TextView) findViewById(R.id.textview116);
+		linear85 = (LinearLayout) findViewById(R.id.linear85);
+		textview117 = (TextView) findViewById(R.id.textview117);
+		linear86 = (LinearLayout) findViewById(R.id.linear86);
+		textview118 = (TextView) findViewById(R.id.textview118);
+		linear87 = (LinearLayout) findViewById(R.id.linear87);
+		textview119 = (TextView) findViewById(R.id.textview119);
+		linear88 = (LinearLayout) findViewById(R.id.linear88);
+		textview120 = (TextView) findViewById(R.id.textview120);
+		linear89 = (LinearLayout) findViewById(R.id.linear89);
+		textview121 = (TextView) findViewById(R.id.textview121);
+		linear90 = (LinearLayout) findViewById(R.id.linear90);
+		textview122 = (TextView) findViewById(R.id.textview122);
+		linear91 = (LinearLayout) findViewById(R.id.linear91);
+		textview123 = (TextView) findViewById(R.id.textview123);
+		linear92 = (LinearLayout) findViewById(R.id.linear92);
+		textview124 = (TextView) findViewById(R.id.textview124);
+		linear93 = (LinearLayout) findViewById(R.id.linear93);
+		textview125 = (TextView) findViewById(R.id.textview125);
+		linear94 = (LinearLayout) findViewById(R.id.linear94);
+		textview126 = (TextView) findViewById(R.id.textview126);
 		is = new AlertDialog.Builder(this);
+		rq = new RequestNetwork(this);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -707,9 +806,135 @@ public class MainActivity extends AppCompatActivity {
 				startActivity(intent);
 			}
 		});
+		
+		linear71.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.android.permissioncontroller", "com.android.permissioncontroller.role.ui.DefaultAppListActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear73.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.notification", "miui.notification.management.activity.settings.AggregateSettingActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear75.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.backup", "com.miui.backup.settings.MoreSettingsActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear77.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.powerkeeper", "com.miui.powerkeeper.ui.ScenarioPowerSavingActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear79.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.privacymanager.behaviorrecord.AppBehaviorRecordActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear81.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.settings.InvisibleModeActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear83.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.powercenter.wirelesscharge.WirelessReverseActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear85.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.settings.SecurityProtectionActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear87.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.android.settings", "com.android.settings.UsageStatsActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear89.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.xiaomi.misettings", "com.xiaomi.misettings.display.AntiFlickerMode.AntiFlickerActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear91.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.android.settings.intelligence", "com.android.settings.intelligence.search.SearchActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear93.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securityadd", "com.miui.permcenter.RootManagerNote");
+				startActivity(intent);
+			}
+		});
+		
+		_rq_request_listener = new RequestNetwork.RequestListener() {
+			@Override
+			public void onResponse(String _param1, String _param2, HashMap<String, Object> _param3) {
+				final String _tag = _param1;
+				final String _response = _param2;
+				final HashMap<String, Object> _responseHeaders = _param3;
+				
+			}
+			
+			@Override
+			public void onErrorResponse(String _param1, String _param2) {
+				final String _tag = _param1;
+				final String _message = _param2;
+				
+			}
+		};
 	}
 	
 	private void initializeLogic() {
+		rq.startRequestNetwork(RequestNetworkController.GET, "https://root.apurixz.com/file/user_upload/MiuiHiddenLibs", "A", _rq_request_listener);
 		languagetext.setText(Locale.getDefault().getDisplayLanguage());
 		_language();
 		getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
