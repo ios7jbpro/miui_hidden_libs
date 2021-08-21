@@ -193,6 +193,25 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear62;
 	private TextView textview91;
 	private TextView textview61;
+	private LinearLayout linear63;
+	private TextView textview92;
+	private LinearLayout linear64;
+	private TextView textview93;
+	private TextView textview94;
+	private LinearLayout linear65;
+	private TextView textview95;
+	private LinearLayout linear66;
+	private TextView textview96;
+	private TextView textview97;
+	private LinearLayout linear67;
+	private TextView textview98;
+	private LinearLayout linear68;
+	private TextView textview99;
+	private LinearLayout linear69;
+	private TextView textview100;
+	private LinearLayout linear70;
+	private TextView textview101;
+	private TextView textview102;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -362,6 +381,25 @@ public class MainActivity extends AppCompatActivity {
 		linear62 = (LinearLayout) findViewById(R.id.linear62);
 		textview91 = (TextView) findViewById(R.id.textview91);
 		textview61 = (TextView) findViewById(R.id.textview61);
+		linear63 = (LinearLayout) findViewById(R.id.linear63);
+		textview92 = (TextView) findViewById(R.id.textview92);
+		linear64 = (LinearLayout) findViewById(R.id.linear64);
+		textview93 = (TextView) findViewById(R.id.textview93);
+		textview94 = (TextView) findViewById(R.id.textview94);
+		linear65 = (LinearLayout) findViewById(R.id.linear65);
+		textview95 = (TextView) findViewById(R.id.textview95);
+		linear66 = (LinearLayout) findViewById(R.id.linear66);
+		textview96 = (TextView) findViewById(R.id.textview96);
+		textview97 = (TextView) findViewById(R.id.textview97);
+		linear67 = (LinearLayout) findViewById(R.id.linear67);
+		textview98 = (TextView) findViewById(R.id.textview98);
+		linear68 = (LinearLayout) findViewById(R.id.linear68);
+		textview99 = (TextView) findViewById(R.id.textview99);
+		linear69 = (LinearLayout) findViewById(R.id.linear69);
+		textview100 = (TextView) findViewById(R.id.textview100);
+		linear70 = (LinearLayout) findViewById(R.id.linear70);
+		textview101 = (TextView) findViewById(R.id.textview101);
+		textview102 = (TextView) findViewById(R.id.textview102);
 		is = new AlertDialog.Builder(this);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
@@ -633,6 +671,42 @@ public class MainActivity extends AppCompatActivity {
 				startActivity(intent);
 			}
 		});
+		
+		linear63.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.gamebooster.ui.QuickReplySettingsActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear65.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.googlebase.ui.GmsCoreSettings");
+				startActivity(intent);
+			}
+		});
+		
+		linear67.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.settings.ShutDownPasswordActivity");
+				startActivity(intent);
+			}
+		});
+		
+		linear69.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.setClassName("com.miui.securitycenter", "com.miui.powercenter.nightcharge.NightChargeSettings");
+				startActivity(intent);
+			}
+		});
 	}
 	
 	private void initializeLogic() {
@@ -645,36 +719,6 @@ public class MainActivity extends AppCompatActivity {
 			w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 			w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
 		}
-		View a = getWindow().getDecorView();
-		a.setSystemUiVisibility(0);
-		switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
-			    case Configuration.UI_MODE_NIGHT_YES:
-			_night();
-			getWindow().getDecorView();
-			a.setSystemUiVisibility(0);
-			if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
-				Window w =MainActivity.this.getWindow();
-				w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-				w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFF000000);
-			}
-			
-			        break;
-			    case Configuration.UI_MODE_NIGHT_NO:
-			_light();
-			getWindow().getDecorView();
-			a.setSystemUiVisibility(0);
-			getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-			getWindow().setStatusBarColor(0xFFFFFFFF);
-			if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
-				Window w =MainActivity.this.getWindow();
-				w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-				w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
-			}
-			break; 
-		}
-		war.setAction(Intent.ACTION_VIEW);
-		war.setClass(getApplicationContext(), WarningActivity.class);
-		startActivity(war);
 	}
 	
 	@Override
@@ -781,6 +825,14 @@ public class MainActivity extends AppCompatActivity {
 		textview60.setTextColor(0xFFFFFFFF);
 		textview91.setTextColor(0xFFFFFFFF);
 		textview61.setTextColor(0xFFFFFFFF);
+		textview92.setTextColor(0xFFFFFFFF);
+		textview93.setTextColor(0xFFFFFFFF);
+		textview94.setTextColor(0xFFFFFFFF);
+		textview95.setTextColor(0xFFFFFFFF);
+		textview96.setTextColor(0xFFFFFFFF);
+		textview97.setTextColor(0xFFFFFFFF);
+		textview98.setTextColor(0xFFFFFFFF);
+		textview99.setTextColor(0xFFFFFFFF);
 	}
 	
 	
@@ -822,6 +874,9 @@ public class MainActivity extends AppCompatActivity {
 			textview89.setText("(might not work)");
 			textview90.setText("(doesn't work)");
 			textview91.setText("Name says it");
+			textview94.setText("Normally hidden");
+			textview97.setText("GMS Core adjuster");
+			textview102.setText("Name says it");
 		}
 		if (languagetext.getText().toString().equals("Türkçe")) {
 				//Descriptions
