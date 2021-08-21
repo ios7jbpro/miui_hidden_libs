@@ -710,6 +710,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview78"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="NightLight from AOSP"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview35"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -741,6 +750,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview79"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Hidden Multi Users option"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview37"
 						android:layout_width="wrap_content"
@@ -774,6 +792,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview80"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Old section from MIUI 12(V2)"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview39"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -805,6 +832,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview81"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Hidden Battery Stats"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview41"
 						android:layout_width="wrap_content"
@@ -838,6 +874,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview82"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="From MIUI 12"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview43"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -869,6 +914,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview83"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Turns back to home"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview45"
 						android:layout_width="wrap_content"
@@ -902,6 +956,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview84"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="The name says it"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview47"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -933,6 +996,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview85"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Picker for MIUI used in apps"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview49"
 						android:layout_width="wrap_content"
@@ -966,6 +1038,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview86"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Hidden size changer from 12"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview51"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -997,6 +1078,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview87"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Notif. form AOSP"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview53"
 						android:layout_width="wrap_content"
@@ -1030,6 +1120,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview88"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Dialog used in MIUI"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview55"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -1061,6 +1160,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview89"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="(might not work)"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview57"
 						android:layout_width="wrap_content"
@@ -1094,6 +1202,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview90"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="(doesn't work)"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview59"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -1125,6 +1242,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview91"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Name says it"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview61"
 						android:layout_width="wrap_content"

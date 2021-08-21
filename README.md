@@ -1,4 +1,4 @@
 # miui_hidden_libs
 Use this to open hidden activities on MIUI.
 
-DELETE README AFTER DOWNLOADING!!
+DELETE README&.git AFTER DOWNLOADING!!
