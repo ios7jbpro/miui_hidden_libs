@@ -70,6 +70,7 @@ public class MainActivity extends Activity {
 	private LinearLayout linear55;
 	private LinearLayout linear57;
 	private LinearLayout linear59;
+	private LinearLayout linear61;
 	private TextView textview2;
 	private LinearLayout linear4;
 	private TextView textview3;
@@ -157,10 +158,25 @@ public class MainActivity extends Activity {
 	private TextView textview58;
 	private LinearLayout linear60;
 	private TextView textview59;
-	private LinearLayout linear61;
 	private TextView textview60;
 	private LinearLayout linear62;
 	private TextView textview61;
+	private TextView textview62;
+	private TextView textview63;
+	private TextView textview64;
+	private TextView textview65;
+	private TextView textview66;
+	private TextView textview67;
+	private TextView textview68;
+	private TextView textview69;
+	private TextView textview70;
+	private TextView textview71;
+	private TextView textview72;
+	private TextView textview73;
+	private TextView textview74;
+	private TextView textview75;
+	private TextView textview76;
+	private TextView textview77;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -207,6 +223,7 @@ public class MainActivity extends Activity {
 		linear55 = (LinearLayout) findViewById(R.id.linear55);
 		linear57 = (LinearLayout) findViewById(R.id.linear57);
 		linear59 = (LinearLayout) findViewById(R.id.linear59);
+		linear61 = (LinearLayout) findViewById(R.id.linear61);
 		textview2 = (TextView) findViewById(R.id.textview2);
 		linear4 = (LinearLayout) findViewById(R.id.linear4);
 		textview3 = (TextView) findViewById(R.id.textview3);
@@ -294,10 +311,25 @@ public class MainActivity extends Activity {
 		textview58 = (TextView) findViewById(R.id.textview58);
 		linear60 = (LinearLayout) findViewById(R.id.linear60);
 		textview59 = (TextView) findViewById(R.id.textview59);
-		linear61 = (LinearLayout) findViewById(R.id.linear61);
 		textview60 = (TextView) findViewById(R.id.textview60);
 		linear62 = (LinearLayout) findViewById(R.id.linear62);
 		textview61 = (TextView) findViewById(R.id.textview61);
+		textview62 = (TextView) findViewById(R.id.textview62);
+		textview63 = (TextView) findViewById(R.id.textview63);
+		textview64 = (TextView) findViewById(R.id.textview64);
+		textview65 = (TextView) findViewById(R.id.textview65);
+		textview66 = (TextView) findViewById(R.id.textview66);
+		textview67 = (TextView) findViewById(R.id.textview67);
+		textview68 = (TextView) findViewById(R.id.textview68);
+		textview69 = (TextView) findViewById(R.id.textview69);
+		textview70 = (TextView) findViewById(R.id.textview70);
+		textview71 = (TextView) findViewById(R.id.textview71);
+		textview72 = (TextView) findViewById(R.id.textview72);
+		textview73 = (TextView) findViewById(R.id.textview73);
+		textview74 = (TextView) findViewById(R.id.textview74);
+		textview75 = (TextView) findViewById(R.id.textview75);
+		textview76 = (TextView) findViewById(R.id.textview76);
+		textview77 = (TextView) findViewById(R.id.textview77);
 		is = new AlertDialog.Builder(this);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
