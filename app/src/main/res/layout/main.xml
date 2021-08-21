@@ -1511,6 +1511,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview130"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Xiaomi Cloud"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview108"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -1574,6 +1583,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview129"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Watch what apps did"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview112"
 						android:layout_width="wrap_content"
@@ -1703,6 +1721,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview127"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="From AOSP"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview120"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -1735,6 +1762,15 @@
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
 					<TextView
+						android:id="@+id/textview131"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="For screen"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
+					<TextView
 						android:id="@+id/textview122"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -1766,6 +1802,15 @@
 					android:layout_height="wrap_content"
 					android:gravity="right|center_vertical"
 					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview128"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="(might not work at all)"
+						android:textSize="12sp"
+						android:textStyle="italic"
+						android:textColor="#000000"/>
 					<TextView
 						android:id="@+id/textview124"
 						android:layout_width="wrap_content"
