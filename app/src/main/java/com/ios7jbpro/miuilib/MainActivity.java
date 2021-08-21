@@ -73,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear57;
 	private LinearLayout linear59;
 	private LinearLayout linear61;
+	private LinearLayout linear63;
+	private LinearLayout linear65;
+	private LinearLayout linear67;
+	private LinearLayout linear69;
 	private TextView textview2;
 	private LinearLayout linear4;
 	private TextView textview62;
@@ -193,25 +197,21 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear62;
 	private TextView textview91;
 	private TextView textview61;
-	private LinearLayout linear63;
 	private TextView textview92;
 	private LinearLayout linear64;
-	private TextView textview93;
 	private TextView textview94;
-	private LinearLayout linear65;
+	private TextView textview93;
 	private TextView textview95;
 	private LinearLayout linear66;
-	private TextView textview96;
 	private TextView textview97;
-	private LinearLayout linear67;
+	private TextView textview96;
 	private TextView textview98;
 	private LinearLayout linear68;
 	private TextView textview99;
-	private LinearLayout linear69;
 	private TextView textview100;
 	private LinearLayout linear70;
-	private TextView textview101;
 	private TextView textview102;
+	private TextView textview101;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -261,6 +261,10 @@ public class MainActivity extends AppCompatActivity {
 		linear57 = (LinearLayout) findViewById(R.id.linear57);
 		linear59 = (LinearLayout) findViewById(R.id.linear59);
 		linear61 = (LinearLayout) findViewById(R.id.linear61);
+		linear63 = (LinearLayout) findViewById(R.id.linear63);
+		linear65 = (LinearLayout) findViewById(R.id.linear65);
+		linear67 = (LinearLayout) findViewById(R.id.linear67);
+		linear69 = (LinearLayout) findViewById(R.id.linear69);
 		textview2 = (TextView) findViewById(R.id.textview2);
 		linear4 = (LinearLayout) findViewById(R.id.linear4);
 		textview62 = (TextView) findViewById(R.id.textview62);
@@ -381,25 +385,21 @@ public class MainActivity extends AppCompatActivity {
 		linear62 = (LinearLayout) findViewById(R.id.linear62);
 		textview91 = (TextView) findViewById(R.id.textview91);
 		textview61 = (TextView) findViewById(R.id.textview61);
-		linear63 = (LinearLayout) findViewById(R.id.linear63);
 		textview92 = (TextView) findViewById(R.id.textview92);
 		linear64 = (LinearLayout) findViewById(R.id.linear64);
-		textview93 = (TextView) findViewById(R.id.textview93);
 		textview94 = (TextView) findViewById(R.id.textview94);
-		linear65 = (LinearLayout) findViewById(R.id.linear65);
+		textview93 = (TextView) findViewById(R.id.textview93);
 		textview95 = (TextView) findViewById(R.id.textview95);
 		linear66 = (LinearLayout) findViewById(R.id.linear66);
-		textview96 = (TextView) findViewById(R.id.textview96);
 		textview97 = (TextView) findViewById(R.id.textview97);
-		linear67 = (LinearLayout) findViewById(R.id.linear67);
+		textview96 = (TextView) findViewById(R.id.textview96);
 		textview98 = (TextView) findViewById(R.id.textview98);
 		linear68 = (LinearLayout) findViewById(R.id.linear68);
 		textview99 = (TextView) findViewById(R.id.textview99);
-		linear69 = (LinearLayout) findViewById(R.id.linear69);
 		textview100 = (TextView) findViewById(R.id.textview100);
 		linear70 = (LinearLayout) findViewById(R.id.linear70);
-		textview101 = (TextView) findViewById(R.id.textview101);
 		textview102 = (TextView) findViewById(R.id.textview102);
+		textview101 = (TextView) findViewById(R.id.textview101);
 		is = new AlertDialog.Builder(this);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
@@ -719,6 +719,9 @@ public class MainActivity extends AppCompatActivity {
 			w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 			w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
 		}
+		war.setAction(Intent.ACTION_VIEW);
+		war.setClass(getApplicationContext(), WarningActivity.class);
+		startActivity(war);
 	}
 	
 	@Override
