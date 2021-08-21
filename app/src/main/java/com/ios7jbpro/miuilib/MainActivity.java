@@ -39,6 +39,7 @@ public class MainActivity extends Activity {
 	
 	private LinearLayout linear1;
 	private ScrollView vscroll1;
+	private TextView languagetext;
 	private TextView textview1;
 	private LinearLayout linear2;
 	private LinearLayout linear3;
@@ -206,6 +207,7 @@ public class MainActivity extends Activity {
 	private void initialize(Bundle _savedInstanceState) {
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
 		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
+		languagetext = (TextView) findViewById(R.id.languagetext);
 		textview1 = (TextView) findViewById(R.id.textview1);
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		linear3 = (LinearLayout) findViewById(R.id.linear3);
@@ -632,6 +634,8 @@ public class MainActivity extends Activity {
 	}
 	
 	private void initializeLogic() {
+		languagetext.setText(Locale.getDefault().getDisplayLanguage());
+		_language();
 		getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 		getWindow().setStatusBarColor(0xFFFFFFFF);
 		if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
@@ -794,6 +798,46 @@ public class MainActivity extends Activity {
 	
 	public void _light () {
 		
+	}
+	
+	
+	public void _language () {
+		if (languagetext.getText().toString().equals("English")) {
+			//Descriptions
+			textview62.setText("MTK technology to add frames in the video.");
+			textview63.setText("Make videos HDR");
+			textview64.setText("Make images HDR(old method)");
+			textview65.setText("Make images HDR(new)");
+			textview66.setText("GPS technology (might not work)");
+			textview67.setText("From AOSP, but exist in MIUI");
+			textview68.setText("System categ. from AOSP");
+			textview69.setText("Old section from MIUI 12");
+			textview70.setText("Old section from MIUI 12");
+			textview71.setText("From AOSP, but exist in MIUI");
+			textview72.setText("Screen Saver from AOSP");
+			textview73.setText("ONLY FLAGSHIP DEVICES!");
+			textview74.setText("Old switcher from MIUI 9");
+			textview75.setText("Always On Display");
+			textview76.setText("Actual AOSP DND mode(disabled by MIUI)");
+			textview77.setText("From AOSP(probably doesn't work)");
+			textview78.setText("NightLight from AOSP");
+			textview79.setText("Hidden Multi Users option");
+			textview80.setText("Old section from MIUI 12(V2)");
+			textview81.setText("Hidden Battery Stats");
+			textview82.setText("From MIUI 12");
+			textview83.setText("Turns back to home");
+			textview84.setText("The name says it");
+			textview85.setText("Picker for MIUI used in apps");
+			textview86.setText("Hidden size changer from 12");
+			textview87.setText("Notif. form AOSP");
+			textview88.setText("Dialog used in MIUI");
+			textview89.setText("(might not work)");
+			textview90.setText("(doesn't work)");
+			textview91.setText("Name says it");
+		}
+		if (languagetext.getText().toString().equals("Türkçe")) {
+			
+		}
 	}
 	
 	
