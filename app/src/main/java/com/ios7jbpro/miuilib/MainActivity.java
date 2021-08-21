@@ -836,7 +836,37 @@ public class MainActivity extends Activity {
 			textview91.setText("Name says it");
 		}
 		if (languagetext.getText().toString().equals("Türkçe")) {
-			
+				//Descriptions
+			textview62.setText("Videoya kare ekler(MTK Teknolojisi).");
+				textview63.setText("Video'ları HDR yapar");
+				textview64.setText("Fotoğraf'ları HDR yapar.(eski yöntem)");
+				textview65.setText("Fotoğraf'ları HDR yapar(yeni)");
+				textview66.setText("GPS teknolojisi (çalışmayabilir)");
+				textview67.setText("AOSP'dan, ancak MIUI'da bulunur.");
+				textview68.setText("AOSP'dan sistem kategorisi.");
+				textview69.setText("MIUI 12'den eski kısım.");
+				textview70.setText("MIUI 12'drn eski kısım.");
+				textview71.setText("AOSP'dan, ancak MIUI'da bulunur.");
+				textview72.setText("Screen Saver from AOSP");
+				textview73.setText("SADECE AMİRAL CIHAZLAR!");
+				textview74.setText("MIUI 9'dan eski anahtarlayıcı.");
+				textview75.setText("Her zaman açık ekran");
+				textview76.setText("Asıl rahatsız etme modu(MIUI tarafından etkisizleştirildi)");
+				textview77.setText("AOSP'dan(muhtemelen çalışmayacaktır)");
+				textview78.setText("AOSP'dan Gece Işığı");
+				textview79.setText("Gizli Çoklu Kullanıcı seçeneği.");
+				textview80.setText("MIUI 12'den eski seçenek(V2)");
+				textview81.setText("Gizli Pil İstatislikleri");
+				textview82.setText("MIUI 12'den");
+				textview83.setText("Ana Ekran'a föner");
+				textview84.setText("Adına hitaben");
+				textview85.setText("MIUI'da uygulamalarda kullanılanılabilen alıcı.");
+				textview86.setText("MIUI 12'den gizli boyut ayarlayıcı.");
+				textview87.setText("AOSP'dan bildirim");
+				textview88.setText("MIUI'da kullanılan diyalog");
+				textview89.setText("(çalışmayabilir)");
+				textview90.setText("(çalışmaz)");
+				textview91.setText("İsim söylüyor");
 		}
 	}
 	

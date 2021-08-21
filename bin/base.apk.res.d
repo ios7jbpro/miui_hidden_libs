@@ -1,4 +1,4 @@
-/storage/emulated/0/.sketchware/mysc/688/bin/NewProject25.apk.res \
+/storage/emulated/0/.sketchware/mysc/688/bin/base.apk.res \
  : /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/drawable-xhdpi/default_image.png \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/drawable-xhdpi/app_icon.png \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/values/styles.xml \
