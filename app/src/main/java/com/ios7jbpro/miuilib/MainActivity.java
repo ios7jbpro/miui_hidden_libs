@@ -137,60 +137,60 @@ public class MainActivity extends Activity {
 	private TextView textview33;
 	private TextView textview34;
 	private LinearLayout linear36;
+	private TextView textview78;
 	private TextView textview35;
 	private TextView textview36;
 	private LinearLayout linear38;
+	private TextView textview79;
 	private TextView textview37;
 	private TextView textview38;
 	private LinearLayout linear40;
+	private TextView textview80;
 	private TextView textview39;
 	private TextView textview40;
 	private LinearLayout linear42;
+	private TextView textview81;
 	private TextView textview41;
 	private TextView textview42;
 	private LinearLayout linear44;
+	private TextView textview82;
 	private TextView textview43;
 	private TextView textview44;
 	private LinearLayout linear46;
+	private TextView textview83;
 	private TextView textview45;
 	private TextView textview46;
 	private LinearLayout linear48;
+	private TextView textview84;
 	private TextView textview47;
 	private TextView textview48;
 	private LinearLayout linear50;
+	private TextView textview85;
 	private TextView textview49;
 	private TextView textview50;
 	private LinearLayout linear52;
+	private TextView textview86;
 	private TextView textview51;
 	private TextView textview52;
 	private LinearLayout linear54;
+	private TextView textview87;
 	private TextView textview53;
 	private TextView textview54;
 	private LinearLayout linear56;
+	private TextView textview88;
 	private TextView textview55;
 	private TextView textview56;
 	private LinearLayout linear58;
+	private TextView textview89;
 	private TextView textview57;
 	private TextView textview58;
 	private LinearLayout linear60;
+	private TextView textview90;
 	private TextView textview59;
 	private TextView textview60;
 	private LinearLayout linear62;
-	private TextView textview61;
-	private TextView textview78;
-	private TextView textview79;
-	private TextView textview80;
-	private TextView textview81;
-	private TextView textview82;
-	private TextView textview83;
-	private TextView textview84;
-	private TextView textview85;
-	private TextView textview86;
-	private TextView textview87;
-	private TextView textview88;
-	private TextView textview89;
-	private TextView textview90;
 	private TextView textview91;
+	private TextView textview61;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -304,60 +304,60 @@ public class MainActivity extends Activity {
 		textview33 = (TextView) findViewById(R.id.textview33);
 		textview34 = (TextView) findViewById(R.id.textview34);
 		linear36 = (LinearLayout) findViewById(R.id.linear36);
+		textview78 = (TextView) findViewById(R.id.textview78);
 		textview35 = (TextView) findViewById(R.id.textview35);
 		textview36 = (TextView) findViewById(R.id.textview36);
 		linear38 = (LinearLayout) findViewById(R.id.linear38);
+		textview79 = (TextView) findViewById(R.id.textview79);
 		textview37 = (TextView) findViewById(R.id.textview37);
 		textview38 = (TextView) findViewById(R.id.textview38);
 		linear40 = (LinearLayout) findViewById(R.id.linear40);
+		textview80 = (TextView) findViewById(R.id.textview80);
 		textview39 = (TextView) findViewById(R.id.textview39);
 		textview40 = (TextView) findViewById(R.id.textview40);
 		linear42 = (LinearLayout) findViewById(R.id.linear42);
+		textview81 = (TextView) findViewById(R.id.textview81);
 		textview41 = (TextView) findViewById(R.id.textview41);
 		textview42 = (TextView) findViewById(R.id.textview42);
 		linear44 = (LinearLayout) findViewById(R.id.linear44);
+		textview82 = (TextView) findViewById(R.id.textview82);
 		textview43 = (TextView) findViewById(R.id.textview43);
 		textview44 = (TextView) findViewById(R.id.textview44);
 		linear46 = (LinearLayout) findViewById(R.id.linear46);
+		textview83 = (TextView) findViewById(R.id.textview83);
 		textview45 = (TextView) findViewById(R.id.textview45);
 		textview46 = (TextView) findViewById(R.id.textview46);
 		linear48 = (LinearLayout) findViewById(R.id.linear48);
+		textview84 = (TextView) findViewById(R.id.textview84);
 		textview47 = (TextView) findViewById(R.id.textview47);
 		textview48 = (TextView) findViewById(R.id.textview48);
 		linear50 = (LinearLayout) findViewById(R.id.linear50);
+		textview85 = (TextView) findViewById(R.id.textview85);
 		textview49 = (TextView) findViewById(R.id.textview49);
 		textview50 = (TextView) findViewById(R.id.textview50);
 		linear52 = (LinearLayout) findViewById(R.id.linear52);
+		textview86 = (TextView) findViewById(R.id.textview86);
 		textview51 = (TextView) findViewById(R.id.textview51);
 		textview52 = (TextView) findViewById(R.id.textview52);
 		linear54 = (LinearLayout) findViewById(R.id.linear54);
+		textview87 = (TextView) findViewById(R.id.textview87);
 		textview53 = (TextView) findViewById(R.id.textview53);
 		textview54 = (TextView) findViewById(R.id.textview54);
 		linear56 = (LinearLayout) findViewById(R.id.linear56);
+		textview88 = (TextView) findViewById(R.id.textview88);
 		textview55 = (TextView) findViewById(R.id.textview55);
 		textview56 = (TextView) findViewById(R.id.textview56);
 		linear58 = (LinearLayout) findViewById(R.id.linear58);
+		textview89 = (TextView) findViewById(R.id.textview89);
 		textview57 = (TextView) findViewById(R.id.textview57);
 		textview58 = (TextView) findViewById(R.id.textview58);
 		linear60 = (LinearLayout) findViewById(R.id.linear60);
+		textview90 = (TextView) findViewById(R.id.textview90);
 		textview59 = (TextView) findViewById(R.id.textview59);
 		textview60 = (TextView) findViewById(R.id.textview60);
 		linear62 = (LinearLayout) findViewById(R.id.linear62);
-		textview61 = (TextView) findViewById(R.id.textview61);
-		textview78 = (TextView) findViewById(R.id.textview78);
-		textview79 = (TextView) findViewById(R.id.textview79);
-		textview80 = (TextView) findViewById(R.id.textview80);
-		textview81 = (TextView) findViewById(R.id.textview81);
-		textview82 = (TextView) findViewById(R.id.textview82);
-		textview83 = (TextView) findViewById(R.id.textview83);
-		textview84 = (TextView) findViewById(R.id.textview84);
-		textview85 = (TextView) findViewById(R.id.textview85);
-		textview86 = (TextView) findViewById(R.id.textview86);
-		textview87 = (TextView) findViewById(R.id.textview87);
-		textview88 = (TextView) findViewById(R.id.textview88);
-		textview89 = (TextView) findViewById(R.id.textview89);
-		textview90 = (TextView) findViewById(R.id.textview90);
 		textview91 = (TextView) findViewById(R.id.textview91);
+		textview61 = (TextView) findViewById(R.id.textview61);
 		is = new AlertDialog.Builder(this);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
@@ -639,6 +639,33 @@ public class MainActivity extends Activity {
 			w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 			w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
 		}
+		View a = getWindow().getDecorView();
+		a.setSystemUiVisibility(0);
+		switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
+			    case Configuration.UI_MODE_NIGHT_YES:
+			_night();
+			getWindow().getDecorView();
+			a.setSystemUiVisibility(0);
+			if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
+				Window w =MainActivity.this.getWindow();
+				w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+				w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFF000000);
+			}
+			
+			        break;
+			    case Configuration.UI_MODE_NIGHT_NO:
+			_light();
+			getWindow().getDecorView();
+			a.setSystemUiVisibility(0);
+			getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+			getWindow().setStatusBarColor(0xFFFFFFFF);
+			if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
+				Window w =MainActivity.this.getWindow();
+				w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+				w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
+			}
+			break; 
+		}
 		is.setTitle("⚠️⚠️READ THIS WARNING!⚠️⚠️");
 		is.setMessage("The app is designed to work on miui ONLY. Do not complain me about not working on aosp.\n\nALSO IM NOT RESPONSIBLE FOR ANY ISSUE!\n\n- ios7jbpro");
 		is.setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -667,6 +694,108 @@ public class MainActivity extends Activity {
 			break;
 		}
 	}
+	
+	public void _night () {
+		linear1.setBackgroundColor(0xFF000000);
+		vscroll1.setBackgroundColor(0xFF000000);
+		textview1.setTextColor(0xFFFFFFFF);
+		textview2.setTextColor(0xFFFFFFFF);
+		textview62.setTextColor(0xFFFFFFFF);
+		textview3.setTextColor(0xFFFFFFFF);
+		textview4.setTextColor(0xFFFFFFFF);
+		textview63.setTextColor(0xFFFFFFFF);
+		textview5.setTextColor(0xFFFFFFFF);
+		textview6.setTextColor(0xFFFFFFFF);
+		textview64.setTextColor(0xFFFFFFFF);
+		textview7.setTextColor(0xFFFFFFFF);
+		textview8.setTextColor(0xFFFFFFFF);
+		textview65.setTextColor(0xFFFFFFFF);
+		textview9.setTextColor(0xFFFFFFFF);
+		textview10.setTextColor(0xFFFFFFFF);
+		textview66.setTextColor(0xFFFFFFFF);
+		textview11.setTextColor(0xFFFFFFFF);
+		textview12.setTextColor(0xFFFFFFFF);
+		textview67.setTextColor(0xFFFFFFFF);
+		textview13.setTextColor(0xFFFFFFFF);
+		textview14.setTextColor(0xFFFFFFFF);
+		textview68.setTextColor(0xFFFFFFFF);
+		textview15.setTextColor(0xFFFFFFFF);
+		textview16.setTextColor(0xFFFFFFFF);
+		textview69.setTextColor(0xFFFFFFFF);
+		textview17.setTextColor(0xFFFFFFFF);
+		textview18.setTextColor(0xFFFFFFFF);
+		textview70.setTextColor(0xFFFFFFFF);
+		textview19.setTextColor(0xFFFFFFFF);
+		textview20.setTextColor(0xFFFFFFFF);
+		textview71.setTextColor(0xFFFFFFFF);
+		textview21.setTextColor(0xFFFFFFFF);
+		textview22.setTextColor(0xFFFFFFFF);
+		textview72.setTextColor(0xFFFFFFFF);
+		textview23.setTextColor(0xFFFFFFFF);
+		textview24.setTextColor(0xFFFFFFFF);
+		textview73.setTextColor(0xFFFFFFFF);
+		textview25.setTextColor(0xFFFFFFFF);
+		textview26.setTextColor(0xFFFFFFFF);
+		textview74.setTextColor(0xFFFFFFFF);
+		textview27.setTextColor(0xFFFFFFFF);
+		textview28.setTextColor(0xFFFFFFFF);
+		textview75.setTextColor(0xFFFFFFFF);
+		textview29.setTextColor(0xFFFFFFFF);
+		textview30.setTextColor(0xFFFFFFFF);
+		textview76.setTextColor(0xFFFFFFFF);
+		textview31.setTextColor(0xFFFFFFFF);
+		textview32.setTextColor(0xFFFFFFFF);
+		textview77.setTextColor(0xFFFFFFFF);
+		textview33.setTextColor(0xFFFFFFFF);
+		textview34.setTextColor(0xFFFFFFFF);
+		textview78.setTextColor(0xFFFFFFFF);
+		textview35.setTextColor(0xFFFFFFFF);
+		textview36.setTextColor(0xFFFFFFFF);
+		textview79.setTextColor(0xFFFFFFFF);
+		textview37.setTextColor(0xFFFFFFFF);
+		textview38.setTextColor(0xFFFFFFFF);
+		textview80.setTextColor(0xFFFFFFFF);
+		textview39.setTextColor(0xFFFFFFFF);
+		textview40.setTextColor(0xFFFFFFFF);
+		textview81.setTextColor(0xFFFFFFFF);
+		textview41.setTextColor(0xFFFFFFFF);
+		textview42.setTextColor(0xFFFFFFFF);
+		textview82.setTextColor(0xFFFFFFFF);
+		textview43.setTextColor(0xFFFFFFFF);
+		textview44.setTextColor(0xFFFFFFFF);
+		textview83.setTextColor(0xFFFFFFFF);
+		textview45.setTextColor(0xFFFFFFFF);
+		textview46.setTextColor(0xFFFFFFFF);
+		textview84.setTextColor(0xFFFFFFFF);
+		textview47.setTextColor(0xFFFFFFFF);
+		textview48.setTextColor(0xFFFFFFFF);
+		textview85.setTextColor(0xFFFFFFFF);
+		textview49.setTextColor(0xFFFFFFFF);
+		textview50.setTextColor(0xFFFFFFFF);
+		textview86.setTextColor(0xFFFFFFFF);
+		textview51.setTextColor(0xFFFFFFFF);
+		textview52.setTextColor(0xFFFFFFFF);
+		textview87.setTextColor(0xFFFFFFFF);
+		textview53.setTextColor(0xFFFFFFFF);
+		textview54.setTextColor(0xFFFFFFFF);
+		textview88.setTextColor(0xFFFFFFFF);
+		textview55.setTextColor(0xFFFFFFFF);
+		textview56.setTextColor(0xFFFFFFFF);
+		textview89.setTextColor(0xFFFFFFFF);
+		textview57.setTextColor(0xFFFFFFFF);
+		textview58.setTextColor(0xFFFFFFFF);
+		textview90.setTextColor(0xFFFFFFFF);
+		textview59.setTextColor(0xFFFFFFFF);
+		textview60.setTextColor(0xFFFFFFFF);
+		textview91.setTextColor(0xFFFFFFFF);
+		textview61.setTextColor(0xFFFFFFFF);
+	}
+	
+	
+	public void _light () {
+		
+	}
+	
 	
 	@Deprecated
 	public void showMessage(String _s) {
