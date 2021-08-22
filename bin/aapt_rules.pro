@@ -168,15 +168,24 @@
 # view res/layout/material_chip_input_combo.xml #generated:18
 -keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(...); }
 
-# view AndroidManifest.xml #generated:34
+# view AndroidManifest.xml #generated:29
+-keep class com.ios7jbpro.miuilib.CategoriesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
 -keep class com.ios7jbpro.miuilib.DebugActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:15
 -keep class com.ios7jbpro.miuilib.MainActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:41
+-keep class com.ios7jbpro.miuilib.Miui11russiaActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:7
 -keep class com.ios7jbpro.miuilib.SketchApplication { <init>(...); }
 
-# view AndroidManifest.xml #generated:27
+# view AndroidManifest.xml #generated:22
 -keep class com.ios7jbpro.miuilib.WarningActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.ios7jbpro.miuilib.Xiaomieu12Activity { <init>(...); }
 

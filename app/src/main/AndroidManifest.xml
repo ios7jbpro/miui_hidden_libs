@@ -18,6 +18,20 @@
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
 			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".WarningActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".CategoriesActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateHidden">
 			<intent-filter>
 				<action	android:name="android.intent.action.MAIN"/>
@@ -25,11 +39,18 @@
 			</intent-filter>
 		</activity>
 		<activity
-			android:name=".WarningActivity"
+			android:name=".Miui11russiaActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"
 			android:supportsPictureInPicture="true"
-			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+		<activity
+			android:name=".Xiaomieu12Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".DebugActivity"

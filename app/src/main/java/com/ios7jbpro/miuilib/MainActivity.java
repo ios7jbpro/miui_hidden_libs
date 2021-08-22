@@ -1,5 +1,6 @@
 package com.ios7jbpro.miuilib;
 
+import com.ios7jbpro.miuilib.CategoriesActivity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.*;
 import android.app.*;
@@ -26,6 +27,7 @@ import org.json.*;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.ImageView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -232,12 +234,14 @@ public class MainActivity extends AppCompatActivity {
 	private TextView textview106;
 	private TextView textview107;
 	private LinearLayout linear76;
+	private TextView textview130;
 	private TextView textview108;
 	private TextView textview109;
 	private LinearLayout linear78;
 	private TextView textview110;
 	private TextView textview111;
 	private LinearLayout linear80;
+	private TextView textview129;
 	private TextView textview112;
 	private TextView textview113;
 	private LinearLayout linear82;
@@ -250,21 +254,20 @@ public class MainActivity extends AppCompatActivity {
 	private TextView textview118;
 	private TextView textview119;
 	private LinearLayout linear88;
+	private TextView textview127;
 	private TextView textview120;
 	private TextView textview121;
 	private LinearLayout linear90;
+	private TextView textview131;
 	private TextView textview122;
 	private TextView textview123;
 	private LinearLayout linear92;
+	private TextView textview128;
 	private TextView textview124;
 	private TextView textview125;
 	private LinearLayout linear94;
 	private TextView textview126;
-	private TextView textview127;
-	private TextView textview128;
-	private TextView textview129;
-	private TextView textview130;
-	private TextView textview131;
+	private ImageView imageview1;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -475,12 +478,14 @@ public class MainActivity extends AppCompatActivity {
 		textview106 = (TextView) findViewById(R.id.textview106);
 		textview107 = (TextView) findViewById(R.id.textview107);
 		linear76 = (LinearLayout) findViewById(R.id.linear76);
+		textview130 = (TextView) findViewById(R.id.textview130);
 		textview108 = (TextView) findViewById(R.id.textview108);
 		textview109 = (TextView) findViewById(R.id.textview109);
 		linear78 = (LinearLayout) findViewById(R.id.linear78);
 		textview110 = (TextView) findViewById(R.id.textview110);
 		textview111 = (TextView) findViewById(R.id.textview111);
 		linear80 = (LinearLayout) findViewById(R.id.linear80);
+		textview129 = (TextView) findViewById(R.id.textview129);
 		textview112 = (TextView) findViewById(R.id.textview112);
 		textview113 = (TextView) findViewById(R.id.textview113);
 		linear82 = (LinearLayout) findViewById(R.id.linear82);
@@ -493,21 +498,20 @@ public class MainActivity extends AppCompatActivity {
 		textview118 = (TextView) findViewById(R.id.textview118);
 		textview119 = (TextView) findViewById(R.id.textview119);
 		linear88 = (LinearLayout) findViewById(R.id.linear88);
+		textview127 = (TextView) findViewById(R.id.textview127);
 		textview120 = (TextView) findViewById(R.id.textview120);
 		textview121 = (TextView) findViewById(R.id.textview121);
 		linear90 = (LinearLayout) findViewById(R.id.linear90);
+		textview131 = (TextView) findViewById(R.id.textview131);
 		textview122 = (TextView) findViewById(R.id.textview122);
 		textview123 = (TextView) findViewById(R.id.textview123);
 		linear92 = (LinearLayout) findViewById(R.id.linear92);
+		textview128 = (TextView) findViewById(R.id.textview128);
 		textview124 = (TextView) findViewById(R.id.textview124);
 		textview125 = (TextView) findViewById(R.id.textview125);
 		linear94 = (LinearLayout) findViewById(R.id.linear94);
 		textview126 = (TextView) findViewById(R.id.textview126);
-		textview127 = (TextView) findViewById(R.id.textview127);
-		textview128 = (TextView) findViewById(R.id.textview128);
-		textview129 = (TextView) findViewById(R.id.textview129);
-		textview130 = (TextView) findViewById(R.id.textview130);
-		textview131 = (TextView) findViewById(R.id.textview131);
+		imageview1 = (ImageView) findViewById(R.id.imageview1);
 		is = new AlertDialog.Builder(this);
 		rq = new RequestNetwork(this);
 		
@@ -925,6 +929,13 @@ public class MainActivity extends AppCompatActivity {
 			}
 		});
 		
+		imageview1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				finish();
+			}
+		});
+		
 		_rq_request_listener = new RequestNetwork.RequestListener() {
 			@Override
 			public void onResponse(String _param1, String _param2, HashMap<String, Object> _param3) {
@@ -954,9 +965,6 @@ public class MainActivity extends AppCompatActivity {
 			w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 			w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); w.setStatusBarColor(0xFFFFFFFF);
 		}
-		war.setAction(Intent.ACTION_VIEW);
-		war.setClass(getApplicationContext(), WarningActivity.class);
-		startActivity(war);
 	}
 	
 	@Override

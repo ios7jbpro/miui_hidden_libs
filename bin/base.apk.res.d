@@ -1028,10 +1028,14 @@
 /data/user/0/com.sketchware.tn/files/libs/libs/appcompat-1.0.0/res/values-de/values-de.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/drawable-xhdpi/default_image.png \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/drawable-xhdpi/app_icon.png \
+/storage/emulated/0/.sketchware/mysc/688/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_left_black.png \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/values/styles.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/values/colors.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/values/strings.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/layout/warning.xml \
+/storage/emulated/0/.sketchware/mysc/688/app/src/main/res/layout/miui11russia.xml \
+/storage/emulated/0/.sketchware/mysc/688/app/src/main/res/layout/xiaomieu12.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/res/layout/main.xml \
+/storage/emulated/0/.sketchware/mysc/688/app/src/main/res/layout/categories.xml \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/assets/fonts \
 /storage/emulated/0/.sketchware/mysc/688/app/src/main/AndroidManifest.xml \

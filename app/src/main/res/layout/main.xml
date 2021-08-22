@@ -11,7 +11,8 @@
 		android:layout_height="wrap_content"
 		android:padding="8dp"
 		android:background="#FFFFFF"
-		android:orientation="vertical">
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
 		<TextView
 			android:id="@+id/languagetext"
 			android:layout_width="0dp"
@@ -20,13 +21,20 @@
 			android:text="TextView"
 			android:textSize="12sp"
 			android:textColor="#000000"/>
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:src="@drawable/ic_keyboard_arrow_left_black"
+			android:scaleType="fitXY"/>
 		<TextView
 			android:id="@+id/textview1"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:padding="8dp"
-			android:text="MIUI HIDDEN LIBS"
-			android:textSize="20sp"
+			android:text="MIUI 12.5"
+			android:textSize="16sp"
+			android:textStyle="bold"
 			android:textColor="#000000"/>
 	</LinearLayout>
 	<ScrollView
