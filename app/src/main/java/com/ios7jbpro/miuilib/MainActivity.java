@@ -33,6 +33,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
+import com.tuyenmonkey.mkloader.*;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.DialogFragment;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 	private LinearLayout linear1;
 	private ScrollView vscroll1;
 	private TextView languagetext;
+	private ImageView imageview1;
 	private TextView textview1;
 	private LinearLayout linear2;
 	private LinearLayout linear3;
@@ -267,7 +269,6 @@ public class MainActivity extends AppCompatActivity {
 	private TextView textview125;
 	private LinearLayout linear94;
 	private TextView textview126;
-	private ImageView imageview1;
 	
 	private AlertDialog.Builder is;
 	private Intent jdjd = new Intent();
@@ -287,6 +288,7 @@ public class MainActivity extends AppCompatActivity {
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
 		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
 		languagetext = (TextView) findViewById(R.id.languagetext);
+		imageview1 = (ImageView) findViewById(R.id.imageview1);
 		textview1 = (TextView) findViewById(R.id.textview1);
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		linear3 = (LinearLayout) findViewById(R.id.linear3);
@@ -511,9 +513,15 @@ public class MainActivity extends AppCompatActivity {
 		textview125 = (TextView) findViewById(R.id.textview125);
 		linear94 = (LinearLayout) findViewById(R.id.linear94);
 		textview126 = (TextView) findViewById(R.id.textview126);
-		imageview1 = (ImageView) findViewById(R.id.imageview1);
 		is = new AlertDialog.Builder(this);
 		rq = new RequestNetwork(this);
+		
+		imageview1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				finish();
+			}
+		});
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -926,13 +934,6 @@ public class MainActivity extends AppCompatActivity {
 				Intent intent = new Intent(Intent.ACTION_MAIN);
 				intent.setClassName("com.miui.securityadd", "com.miui.permcenter.RootManagerNote");
 				startActivity(intent);
-			}
-		});
-		
-		imageview1.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View _view) {
-				finish();
 			}
 		});
 		

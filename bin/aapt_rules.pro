@@ -171,14 +171,20 @@
 # view AndroidManifest.xml #generated:29
 -keep class com.ios7jbpro.miuilib.CategoriesActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:55
+# view AndroidManifest.xml #generated:69
 -keep class com.ios7jbpro.miuilib.DebugActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.ios7jbpro.miuilib.DexoutActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:15
 -keep class com.ios7jbpro.miuilib.MainActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:41
 -keep class com.ios7jbpro.miuilib.Miui11russiaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.ios7jbpro.miuilib.Miui1203pocof1Activity { <init>(...); }
 
 # view AndroidManifest.xml #generated:7
 -keep class com.ios7jbpro.miuilib.SketchApplication { <init>(...); }
@@ -188,4 +194,7 @@
 
 # view AndroidManifest.xml #generated:48
 -keep class com.ios7jbpro.miuilib.Xiaomieu12Activity { <init>(...); }
+
+# view res/layout/dexout.xml #generated:15
+-keep class com.tuyenmonkey.mkloader.MKLoader { <init>(...); }
 

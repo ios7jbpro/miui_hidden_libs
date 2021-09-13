@@ -11,3 +11,4 @@
 /storage/emulated/0/.sketchware/mysc/688/gen/androidx/transition/R.java \
 /storage/emulated/0/.sketchware/mysc/688/gen/androidx/cardview/R.java \
 /storage/emulated/0/.sketchware/mysc/688/gen/androidx/recyclerview/R.java \
+/storage/emulated/0/.sketchware/mysc/688/gen/com/tuyenmonkey/mkloader/R.java \

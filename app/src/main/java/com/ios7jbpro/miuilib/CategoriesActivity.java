@@ -27,7 +27,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.content.Intent;
 import android.net.Uri;
+import android.app.Activity;
+import android.content.SharedPreferences;
 import android.view.View;
+import com.tuyenmonkey.mkloader.*;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.DialogFragment;
@@ -36,23 +39,30 @@ import androidx.fragment.app.DialogFragment;
 public class CategoriesActivity extends AppCompatActivity {
 	
 	private LinearLayout linear1;
-	private TextView textview1;
 	private LinearLayout linear2;
+	private TextView textview1;
 	private LinearLayout linear3;
+	private LinearLayout linear5;
+	private LinearLayout linear7;
+	private LinearLayout linear12;
 	private TextView textview2;
 	private LinearLayout linear4;
+	private TextView textview11;
 	private TextView textview3;
-	private LinearLayout linear5;
 	private TextView textview4;
 	private LinearLayout linear6;
 	private TextView textview5;
-	private LinearLayout linear7;
 	private TextView textview6;
 	private LinearLayout linear8;
 	private TextView textview7;
+	private TextView textview9;
+	private LinearLayout linear13;
+	private TextView textview10;
 	
 	private Intent ns = new Intent();
 	private Intent twarn = new Intent();
+	private Intent dexout = new Intent();
+	private SharedPreferences dxout;
 	
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
@@ -64,20 +74,26 @@ public class CategoriesActivity extends AppCompatActivity {
 	
 	private void initialize(Bundle _savedInstanceState) {
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
-		textview1 = (TextView) findViewById(R.id.textview1);
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
+		textview1 = (TextView) findViewById(R.id.textview1);
 		linear3 = (LinearLayout) findViewById(R.id.linear3);
+		linear5 = (LinearLayout) findViewById(R.id.linear5);
+		linear7 = (LinearLayout) findViewById(R.id.linear7);
+		linear12 = (LinearLayout) findViewById(R.id.linear12);
 		textview2 = (TextView) findViewById(R.id.textview2);
 		linear4 = (LinearLayout) findViewById(R.id.linear4);
+		textview11 = (TextView) findViewById(R.id.textview11);
 		textview3 = (TextView) findViewById(R.id.textview3);
-		linear5 = (LinearLayout) findViewById(R.id.linear5);
 		textview4 = (TextView) findViewById(R.id.textview4);
 		linear6 = (LinearLayout) findViewById(R.id.linear6);
 		textview5 = (TextView) findViewById(R.id.textview5);
-		linear7 = (LinearLayout) findViewById(R.id.linear7);
 		textview6 = (TextView) findViewById(R.id.textview6);
 		linear8 = (LinearLayout) findViewById(R.id.linear8);
 		textview7 = (TextView) findViewById(R.id.textview7);
+		textview9 = (TextView) findViewById(R.id.textview9);
+		linear13 = (LinearLayout) findViewById(R.id.linear13);
+		textview10 = (TextView) findViewById(R.id.textview10);
+		dxout = getSharedPreferences("dxout", Activity.MODE_PRIVATE);
 		
 		linear3.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -102,6 +118,14 @@ public class CategoriesActivity extends AppCompatActivity {
 				startActivity(ns);
 			}
 		});
+		
+		linear12.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				ns.setClass(getApplicationContext(), Miui1203pocof1Activity.class);
+				startActivity(ns);
+			}
+		});
 	}
 	
 	private void initializeLogic() {
@@ -115,6 +139,14 @@ public class CategoriesActivity extends AppCompatActivity {
 		twarn.setAction(Intent.ACTION_VIEW);
 		twarn.setClass(getApplicationContext(), WarningActivity.class);
 		startActivity(twarn);
+		if (dxout.getString("dxout", "").equals("1")) {
+			
+		}
+		else {
+			dexout.setAction(Intent.ACTION_VIEW);
+			dexout.setClass(getApplicationContext(), DexoutActivity.class);
+			startActivity(dexout);
+		}
 	}
 	
 	@Override

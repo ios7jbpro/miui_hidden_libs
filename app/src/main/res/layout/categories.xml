@@ -50,6 +50,15 @@
 				android:gravity="right|center_vertical"
 				android:orientation="horizontal">
 				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="(This is the only section with tips)"
+					android:textSize="12sp"
+					android:textStyle="italic"
+					android:textColor="#9E9E9E"/>
+				<TextView
 					android:id="@+id/textview3"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
@@ -115,6 +124,38 @@
 				android:orientation="horizontal">
 				<TextView
 					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="&gt;"
+					android:textSize="12sp"
+					android:textColor="#000000"/>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear12"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="12.0.3 Global(Poco F1)"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+			<LinearLayout
+				android:id="@+id/linear13"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview10"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:padding="8dp"
