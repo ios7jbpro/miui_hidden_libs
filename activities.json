@@ -1,0 +1,7 @@
+[
+  {
+    "name": "MEMC",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.display.ScreenEnhanceEngineMemcActivity"
+  }
+]
