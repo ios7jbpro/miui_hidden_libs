@@ -3,5 +3,10 @@
     "name": "MEMC",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.ScreenEnhanceEngineMemcActivity"
+  },
+  {
+    "name": "AI HDR Enhancement",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.display.ScreenEnhanceEngineS2hActivity"
   }
 ]
