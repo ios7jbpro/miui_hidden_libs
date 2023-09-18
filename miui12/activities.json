@@ -1,0 +1,172 @@
+[
+  {
+    "name": "A-GPS",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.AgpsSettings"
+  },
+  {
+    "name": "Assist Gesture",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$AssistGestureSettingsActivity"
+  },
+  {
+    "name": "System Dashboard",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$SystemDashboardActivity"
+  },
+  {
+    "name": "MIUI 12 Notifications",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$StatusBarSettingsActivity"
+  },
+  {
+    "name": "Paper Color Adjustment",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.display.PaperProtectionActivity"
+  },
+  {
+    "name": "Paper Color Adjustment(2)",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.display.ClassicProtectionActivity"
+  },
+  {
+    "name": "AOSP Privacy Dashboard",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$PrivacyDashboardActivity"
+  },
+  {
+    "name": "Screen Saver",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$DreamSettingsActivity"
+  },
+  {
+    "name": "MIUI Performance Mode",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.fuelgauge.PowerModeSettings"
+  },
+  {
+    "name": "Always on Display",
+    "app": "com.miui.aod",
+    "activity": "com.miui.aod.settings.AodStyleCategoriesActivity"
+  },
+  {
+    "name": "Color Correction",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$AccessibilityDaltonizerSettingsActivity"
+  },
+  {
+    "name": "Multiple Users",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$UserSettingsActivity"
+  },
+  {
+    "name": "Battery Dump",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.BatteryInfo"
+  },
+  {
+    "name": "Adaptive Notifications",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$NotificationAssistantSettingsActivity"
+  },
+  {
+    "name": "Homescreen Fallback",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.FallbackHome"
+  },
+  {
+    "name": "Certificates",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.MonitoringCertInfoActivity"
+  },
+  {
+    "name": "Activity Picker",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.ActivityPicker"
+  },
+  {
+    "name": "Display Size",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.display.ScreenZoomActivity"
+  },
+  {
+    "name": "AOSP Notification Dashboard",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$ConfigureNotificationSettingsActivity"
+  },
+  {
+    "name": "MIUI Settings Dialog",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.settingspanel.MiuiSettingsPanelActivity"
+  },
+  {
+    "name": "Vision Settings",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.FontSizeSettingsForSetupWizardActivity"
+  },
+  {
+    "name": "MTK Engineering Mode",
+    "app": "com.mediatek.engineermode",
+    "activity": "com.mediatek.engineermode.EngineerMode"
+  },
+  {
+    "name": "Clear Speaker",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.Settings$SpeakerSettingsActivity"
+  },
+  {
+    "name": "Quick Replies",
+    "app": "com.miui.securitycenter",
+    "activity": "com.miui.gamebooster.ui.QuickReplySettingsActivity"
+  },
+  {
+    "name": "Basic Google Services",
+    "app": "com.miui.securitycenter",
+    "activity": "com.miui.googlebase.ui.GmsCoreSettings"
+  },
+  {
+    "name": "Backup",
+    "app": "com.miui.backup",
+    "activity": "com.miui.backup.settings.MoreSettingsActivity"
+  },
+  {
+    "name": "Smart Scenes",
+    "app": "com.miui.powerkeeper",
+    "activity": "com.miui.powerkeeper.ui.ScenarioPowerSavingActivity"
+  },
+  {
+    "name": "App Behavior",
+    "app": "com.miui.securitycenter",
+    "activity": "com.miui.permcenter.privacymanager.behaviorrecord.AppBehaviorRecordActivity"
+  },
+  {
+    "name": "Reverse Wireless Charging",
+    "app": "com.miui.securitycenter",
+    "activity": "com.miui.powercenter.wirelesscharge.WirelessReverseActivity"
+  },
+  {
+    "name": "Usage Stats",
+    "app": "com.android.settings",
+    "activity": "com.android.settings.UsageStatsActivity"
+  },
+  {
+    "name": "Anti-Flicker Mode",
+    "app": "com.xiaomi.misettings",
+    "activity": "com.xiaomi.misettings.display.AntiFlickerMode.AntiFlickerActivity"
+  },
+  {
+    "name": "AOSP Search",
+    "app": "com.android.settings.intelligence",
+    "activity": "com.android.settings.intelligence.search.SearchActivity"
+  },
+  {
+    "name": "About Root Access",
+    "app": "com.miui.securityadd",
+    "activity": "com.miui.permcenter.RootManagerNote"
+  },
+  {
+    "name": "SecurityState:GuideSuccess",
+    "app": "com.miui.securitycore",
+    "activity": "com.miui.securityspace.ui.activity.GuideSuccessActivity"
+  }
+]
