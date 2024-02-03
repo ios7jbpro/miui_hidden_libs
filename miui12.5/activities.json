@@ -1,6 +1,7 @@
 [
   {
     "name": "MEMC",
+    "desc": "For MTK",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.ScreenEnhanceEngineMemcActivity"
   },
@@ -31,41 +32,49 @@
   },
   {
     "name": "System Dashboard",
+    "desc": "Dashboard leftover from AOSP",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$SystemDashboardActivity"
   },
   {
     "name": "MIUI 12 Notifications",
+    "desc": "Old MIUI notification settings",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$StatusBarSettingsActivity"
   },
   {
     "name": "Paper Color Adjustment",
+    "desc": "Color saturation settings",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.PaperProtectionActivity"
   },
   {
     "name": "Paper Color Adjustment(2)",
+    "desc": "Color saturation settings(old)",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.ClassicProtectionActivity"
   },
   {
     "name": "AOSP Privacy Dashboard",
+    "desc": "Leftover from AOSP",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$PrivacyDashboardActivity"
   },
   {
     "name": "Screen Saver",
+    "desc": "Leftover from AOSP",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$DreamSettingsActivity"
   },
   {
     "name": "Super Resolution",
+    "desc": "For MTK",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.ScreenEnhanceEngineSrActivity"
   },
   {
     "name": "MIUI Performance Mode",
+    "desc": "Leftover from MIUI 9, unknown if working",
     "app": "com.android.settings",
     "activity": "com.android.settings.fuelgauge.PowerModeSettings"
   },
@@ -76,6 +85,7 @@
   },
   {
     "name": "AOSP DnD",
+    "desc": "Leftover from AOSP",
     "app": "com.android.settings",
     "activity": "com.android.settings.notification.zen.ZenOnboardingActivity"
   },
@@ -86,16 +96,19 @@
   },
   {
     "name": "AOSP Nightlight",
-    "app": "",
+    "desc": "Leftover from AOSP",
+    "app": "com.android.settings",
     "activity": "com.android.settings.Settings$NightDisplaySuggestionActivity"
   },
   {
     "name": "Multiple Users",
+    "desc": "Leftover from AOSP, functional but buggy",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$UserSettingsActivity"
   },
   {
     "name": "Battery Dump",
+    "desc": "From AOSP, complete battery stats",
     "app": "com.android.settings",
     "activity": "com.android.settings.BatteryInfo"
   },
@@ -106,6 +119,7 @@
   },
   {
     "name": "Homescreen Fallback",
+    "desc": "Activity used when apps force colse, to go back to homescreen",
     "app": "com.android.settings",
     "activity": "com.android.settings.FallbackHome"
   },
@@ -116,16 +130,19 @@
   },
   {
     "name": "Activity Picker",
+    "desc": "MIUI 11's activity picker",
     "app": "com.android.settings",
     "activity": "com.android.settings.ActivityPicker"
   },
   {
     "name": "Display Size",
+    "desc": "This is now natively there since MIUI 13, not hidden anymore",
     "app": "com.android.settings",
     "activity": "com.android.settings.display.ScreenZoomActivity"
   },
   {
     "name": "AOSP Notification Dashboard",
+    "desc": "Leftover from AOSP",
     "app": "com.android.settings",
     "activity": "com.android.settings.Settings$ConfigureNotificationSettingsActivity"
   },
